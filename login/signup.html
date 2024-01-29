@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <link rel="stylesheet" href="signup.css" />
+    <title>Login Form</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="form-wrapper">
+        <h3 class="heading">SIGN UP</h3>
+        <form action="/signin.html" class="form">
+            <div class="input-field">
+                <span>Name</span>
+                <input type="text" placeholder="Enter your name" required />
+            </div>
+          <div class="input-field">
+            <span>Email</span>
+            <input type="email" placeholder="Enter your email" required />
+          </div>
+          <div class="input-field">
+            <span>Password</span>
+            <input
+              type="password"
+              class="password"
+              placeholder="Enter your password"
+              required
+            />
+            
+          </div>
+          <div class="input-field">
+            <input type="checkbox" id="checkbox" />
+            <label for="checkbox">Remember me?</label>
+          </div>
+          <div class="input-field">
+            <input type="submit" value="SignUp" />
+          </div>
+        </form>
+        <div class="social-icons">
+          <h3>OR</h3>
+          <div class="icons">
+            <a href="#">
+              <i class="bx bxl-google"></i>
+            </a>
+            <a href="#">
+              <i class="bx bxl-facebook"></i>
+            </a>
+            <a href="#">
+              <i class="bx bxl-github"></i>
+            </a>
+          </div>
+          <p>Already an account? <a href="/signin.html">SIGN IN</a></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

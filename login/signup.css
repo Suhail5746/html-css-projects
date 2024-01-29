@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600&display=swap");
+
+* {
+  font-family: "Nunito", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  background:linear-gradient(135deg,#e763ca,#4e085f);
+}
+
+.form-wrapper {
+  background-color: #fadbf4;
+  width: 40rem;
+  padding: 4rem;
+  border-radius: 0.8rem;
+}
+
+.heading {
+  font-size: 3rem;
+  margin-bottom: 2.5rem;
+  font-weight: 400;
+  color: #211121f6;
+}
+
+.form {
+  margin-bottom: 3rem;
+}
+
+.input-field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+  position: relative;
+  
+}
+
+.input-field span {
+  font-size: 1.8rem;
+  color: #6f1a73;
+  margin-bottom: 0.3rem;
+}
+
+.input-field input:not([type="checkbox"]) {
+  height: 4rem;
+  font-size: 1.4rem;
+  letter-spacing: 0.05rem;
+  padding-left: 1rem;
+  border-radius: 0.8rem;
+  border: 0.1rem solid #aaa;
+  outline: none;
+}
+
+input[type="checkbox"] {
+  position: absolute;
+  top: 0.2rem;
+  transform: scale(1.2);
+  accent-color: #52a2fd;
+  cursor: pointer;
+}
+
+.input-field label {
+  margin-left: 2rem;
+  font-size: 1.4rem;
+  cursor: pointer;
+  color: #444;
+  user-select: none;
+}
+
+.input-field input[type="submit"] {
+  background-color: #5b0772;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  color: #fff;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+
+
+.social-icons {
+  border-top: 0.1rem solid #ccc;
+}
+
+.social-icons h3 {
+  font-size: 1.6rem;
+  font-weight: 300;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #52a2fd;
+  color: #fff;
+  border: 0.1rem solid #fff;
+  padding: 0.3rem;
+  border-radius: 0.3rem;
+}
+
+.icons {
+  margin: 3rem 0 2rem 0;
+}
+
+.icons i {
+  font-size: 3rem;
+  color: #52a2fd;
+}
+
+.social-icons p {
+  font-size: 1.4rem;
+  color: #777;
+}
+
+.social-icons p a {
+  color: #52a2fd;
+}
